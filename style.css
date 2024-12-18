@@ -1,0 +1,114 @@
+/* 1st answer */
+@media  screen and (min-width :768px) and (max-width: 1024px){
+    body{
+     background-color:lightblue
+    } 
+ }
+ /* 2nd answer */
+ @media screen and (min-width :600px) and (max-width: 1200px){
+     p{
+         font-size: 18px;
+     }
+ }
+ /* 3r answer */
+ @media screen and (min-width :480px){
+     div{
+         display: flex;
+     }
+ /* 4th answer */
+ }
+ @media screen and (min-width :500px) and (max-width: 800px){
+     h1{
+         color: green;
+     }
+ }
+ /* 5th answer */
+ @media screen and (max-width :480px){
+     img{
+         display: none;
+     }
+ }
+ /* 6th answer */
+ .container-1{
+    font-size: 1.5rem;
+ }
+ @media screen and (max-width :1024px){
+    .container-1{
+        padding: 20px;
+    }
+ }
+ /* 7th answer */
+ .header{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+ }
+ @media screen and (min-width :600px) and (max-width :1200px){
+    .header{
+        background-color: lightgray;
+    }
+ }
+ /* 8th answer */
+ p{
+    font-size: 20px;
+ }
+ @media screen and (max-width: 480px) {
+    p{
+        font-size: 16px;
+    }
+ }
+ /* 10th answer */
+ @media screen and (max-width: 600px){
+    .image1>img {
+        width: 100%;
+    }
+ }
+ /* 11th answer */
+ a{
+    color: pink;
+    text-decoration: none;
+ }
+ @media screen and (min-width: 700px) and ( max-width: 1200px){
+    a{
+        color: blue;
+    }
+ }
+/* 12th answer */
+h2{
+    color: aquamarine;
+}
+@media screen and (min-width: 500px)  and (max-width: 800px){
+    h2{
+        font-size: 24px;
+    }
+}
+/* 13th answer */
+.box{
+    background-color: green;
+    border: none;
+}
+@media screen and (min-width: 1024px){
+    .box{
+        boder:2px solid black;
+    }
+}
+/* 14th answer */
+.sidebar {
+    background-color: yellowgreen;
+    padding: 15px;
+    box-sizing: border-box;
+}
+@media screen and (min-width: 800px) and (max-width: 1200px){
+    .sidebar{
+        width: 250px;
+    }
+}
+/* 15th answer */
+.column {
+    font-size: 20px;
+    background-color: aquamarine;
+}
+@media screen and (min-width: 600px){
+    .column{
+        flex-direction: column;
+    }
+}
